@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import type { GymData, Session, WorkoutType } from '../utils/dateHelpers';
+import type { GymData, WorkoutType } from '../utils/dateHelpers';
 import { YEAR, calculateBestStreak } from '../utils/dateHelpers';
 
 const STORAGE_KEY = `gymtracker_${YEAR}`;
